@@ -1,5 +1,7 @@
 # watcher
-A crime management system 
+A crime management system
+# splash screen
+![alt text](https://mir-s3-cdn-cf.behance.net/project_modules/1400/c7abb7159181007.6399832480921.png)
 # How to run the project
 <br>
 #Step 1
