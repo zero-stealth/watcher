@@ -1,0 +1,129 @@
+@media screen {
+        
+.search-section {
+    gap: 30px;
+    display:flex;
+    height: 100%;
+    overflow: hidden;
+    padding-top: 40px;
+    padding:20px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    flex-direction: column;
+}
+
+.s-title h1 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.search-container {
+
+    overflow: hidden;
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding: 10px 0;
+}
+
+.f-search {
+    gap: 10px;
+    display: flex;
+}
+
+.s-c {
+    width: fit-content;
+    display:flex;
+}
+
+.crime-type {
+    width: 100px;
+    outline: none;
+    color: var(--text-light-color);
+}
+
+.s-input , .crime-type {
+    border-radius: 5px;
+    border: 2px solid var(--text-light-color);
+    padding: 5px;
+}
+
+.s-input:hover , .crime-type:hover {
+    border: 2px solid var(--secondary-color);
+}
+
+.s-input::placeholder, .crime-type[option] {
+    /* padding-left: 10px; */
+    text-transform: capitalize;
+}
+
+
+
+.s-btn {
+    padding: 6px 30px;
+}
+
+
+}
+
+
+/* report form */
+
+.report-container {
+    gap: 50px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.report-display-container {
+    background-color: var(--primary-color);
+    flex-direction: column;
+    border-radius: 10px;
+    display: flex;
+    padding: 20px;
+    gap: 10px;
+}
+
+.r-btn-m {
+    gap: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.btn-add {
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.report-display {
+    overflow-y: hidden;
+    overflow: hidden;
+    overflow-x: auto;
+
+}
+
+table {
+    width: 100%;
+    text-align: center;
+    border-collapse:collapse;
+    border-bottom: none;
+    border-top: none;
+}
+
+th {
+    background-color: var(--chat-sms-color);
+    color: var(--text-light-color);
+    font-size: .7rem; 
+    padding: 10px;  
+}
+
+td {
+    background-color: var(--background-color);
+    border: 1px solid var(--text-light-color);
+    padding: 5px;
+    font-size: .7rem;
+}
+

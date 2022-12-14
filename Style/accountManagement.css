@@ -1,0 +1,139 @@
+@media screen {
+
+    
+.account-manager {
+    gap: 40px;
+    height: 100%;
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+}  
+
+.account-manager h1 {
+    font-size: 1.4rem;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.manager-acc-container {
+        gap: 20px; 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+}
+
+.manager-btn {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.btn-manager {
+    width: 30%;
+    display: flex;
+    border-radius: 5px;
+    justify-content: center;
+}
+
+.btn-manager span {
+    font-size: .8rem;
+}
+
+.btn-manager span a {
+    color: var(--background-color);
+}
+.manager-section-container {
+    overflow: hidden;
+    overflow-x: auto;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+    display: flex;
+    padding: 10px 20px;
+    gap: 20px;
+}
+
+.manager-section {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    border-radius: 10px;
+    width: 400px;
+    min-width: 200px;
+    height:fit-content;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+
+.account-managed {
+    align-items: center;
+    display: flex;
+    height: 100%;
+    gap: 30px;
+}
+
+
+.inner-account {
+    display: flex;
+}
+
+.inner-img {
+    height: 60px;
+    width:  60px;
+}
+
+
+.delete {
+    display: flex;
+    font-size:.9rem;
+    justify-content: flex-end;
+}
+
+.account-managed h4 {
+    font-size: .8rem;
+}
+
+.account-managed span {
+    font-size: .8rem;
+    color: var(--secondary-color);
+}
+
+}   
+
+/* large screens for devices */
+    
+@media screen and (min-width:48rem) {
+
+.btn-manager {
+    width: 15%;
+}
+
+.manager-section-container {
+    flex-wrap: wrap;
+}
+
+.manager-section {
+    width: 300px;
+    height:130px;
+    padding: 10px;
+    min-width: 300px;
+   
+}
+
+.account-managed {
+    padding-left: 50px;
+}
+
+.account-managed h4 {
+    font-size: 1rem;
+}
+
+.account-managed span {
+    font-size: 1rem;
+    color: var(--secondary-color);
+}
+
+
+
+}
+

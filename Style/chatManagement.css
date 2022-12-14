@@ -1,0 +1,179 @@
+@media screen {
+   
+.chat-section {
+    gap: 20px;
+    height: 100%;
+    padding: 20px;
+    overflow: hidden;
+    overflow-y: auto;
+    padding-top: 30px;
+    overflow-x: hidden;
+
+}
+
+.float-mobile-chat {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+.float-send {
+    height: 60px;
+    width: 60px;
+    display: flex;
+    border-radius: 360%;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--secondary-color);
+}
+
+.icon-float {
+    fill: var(--background-color);
+}
+
+.show-msg-section {
+    display: none;
+}
+
+.show-chat-section {
+    gap: 20px;
+    display: flex;
+    flex-direction: column; 
+}
+
+
+.icon-search {
+    width: 20px;
+    height: 20px;
+}
+
+.search-post-form {
+    gap: 10px;
+    display: flex;
+    padding: 10px;
+    border-radius: 5px;    
+    align-items: center;
+    border: 2px solid var(--text-light-color);
+}
+
+.search-post-form:hover {
+    border: 2px solid var(--secondary-color);
+}
+
+.chat-container {
+    gap: 10px;
+    display: flex;
+    overflow: hidden;
+    overflow-y: auto;
+    overflow-x: hidden;
+    flex-direction: column;
+}
+
+.chat-title h1 {
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.chat-profile {
+    display: flex;
+    padding: 10px;
+    gap: 20px;
+}
+
+.chat-profile:hover {
+    border-radius: 5px;
+    background-color: var(--background-chat);
+}
+
+
+.chat-profile-info {
+    gap: 2px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.onactive-chat {
+    width: 100%;
+    flex-wrap: 1;
+;
+}
+
+
+.chat-profile-info h1 {
+    font-size: 600;
+    font-size: .9rem;
+    color: var(--primary-color);
+
+}
+
+.chat-profile-info span {
+    font-size: .7rem;
+    color: var(--text-light-color);
+}
+
+.chat-active {
+    display: flex;
+    height: 100%;
+}
+
+.chat-image {
+    height: 60px;
+    width: 60px;
+}
+
+#active-status {
+width: 10px;
+height: 10px;
+border-radius: 360%;
+background-color: var(--text-light-color);
+}
+
+}
+
+@media screen and (min-width:48rem) {
+        
+.chat-section {
+    display: flex;
+    padding: 10px;
+}
+
+.float-mobile-chat {
+    display: none;
+}
+
+.show-chat-section {
+    gap: 20px;
+    display: flex;
+    flex-direction: column; 
+}
+
+.icon-search {
+    width: 20px;
+    height: 20px;
+}
+
+
+.chat-profile {
+    gap: 2px;
+}
+
+
+.onactive-chat {
+    gap: 30px;
+    justify-content: center;
+}
+
+
+.show-msg-section {
+    width: 100%;
+    display: flex;
+    margin-top: 40px;
+    border-radius: 10px;
+  
+}
+
+}

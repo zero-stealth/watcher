@@ -1,0 +1,149 @@
+@media screen {
+    
+.proofing-container {
+    gap: 10px;
+    height: 100%;
+    display: flex;
+    overflow: hidden;
+    overflow-y: auto;
+    padding-top: 30px;
+    overflow-x: hidden;
+    flex-direction: column;
+}
+
+.proofing-title h1 , .report-title h1 {
+    padding-left: 10px;
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.case-roll {
+    gap: 10px;
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+}
+
+.roll {
+    gap: 20px;
+    display: flex;
+    overflow: hidden;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.case-container {
+    border: 2px dotted var(--text-light-color);
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    border-radius: 10px;
+    width: fit-content;
+    padding: 10px;
+    display: flex;
+    gap:20px;
+}
+
+.case-info {
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.case-info h1 {   
+    font-size: .8rem;
+    font-weight: 300;
+    color: var(--text-light-color);
+}
+
+.case-progress h1 {
+    color: var(--text-light-color);
+}
+
+.case-progress span {
+    font-size: .5rem;
+    color: var(--text-light-color);
+}
+
+/* report form */
+
+.report-container {
+    gap: 50px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.report-display-container {
+    background-color: var(--primary-color);
+    flex-direction: column;
+    border-radius: 10px;
+    display: flex;
+    padding: 20px;
+    gap: 10px;
+}
+
+.r-btn-m {
+    gap: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.btn-add {
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.report-display {
+    overflow-y: hidden;
+    overflow: hidden;
+    overflow-x: auto;
+
+}
+
+table {
+    width: 100%;
+    text-align: center;
+    border-collapse:collapse;
+    border-bottom: none;
+    border-top: none;
+}
+
+th {
+    background-color: var(--chat-sms-color);
+    color: var(--text-light-color);
+    font-size: .7rem; 
+    padding: 10px;  
+}
+
+td {
+    background-color: var(--background-color);
+    border: 1px solid var(--text-light-color);
+    padding: 5px;
+    font-size: .7rem;
+}
+
+}
+
+@media screen and (min-width:48rem) {
+
+.proofing-title h1 , .report-title h1 {
+    font-size: 1.2rem;
+}
+
+/* report form */
+
+th {
+    font-size: .9rem; 
+}
+
+td {
+    font-size: .8rem;
+}
+
+}
+

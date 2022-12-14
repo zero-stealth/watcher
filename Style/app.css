@@ -1,0 +1,133 @@
+@media screen {
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
+* {
+
+    /* color scheme */
+    --background-color:#ffffff;
+    --background-chat: #f7f7f7;
+    --background-opeque:#F5F5F5;
+    --chat-reply-color:#16263D;
+    --chat-sms-color:#2A333F;
+    --primary-color:#101b2aff;
+    --secondary-color:#009fd1ff;
+    --tertiary-color:#EA2828;
+    --text-light-color:#A3A5A4;
+    --text-dark-color:#717573;
+
+    /* reset */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    /* root-config */
+    --side-width:15%;
+
+}
+
+
+/* root style config */
+
+
+body{
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+body {
+    font-size: 1rem;
+    font-weight: 200;
+    color: var(--text-dark-color);
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--background-color);
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 500;
+    color: var(--primary-color);
+}
+
+input {
+    /* padding-left:10px ; */
+    border: none;
+    outline: none;
+}
+
+
+
+.circle-img {
+    /* border: 2px dotted var(--text-light-color); */
+    object-position: center center;
+    border-radius: 360%;
+    object-fit:cover;
+   }
+
+.profile-universal {
+    align-items: center;
+    display: flex;
+}
+
+   .delete span {
+    color: var(--tertiary-color);
+
+   }
+   
+
+
+input::placeholder {
+ color: var(--text-light-color); 
+}
+
+
+button {
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;
+    padding: 10px 10px;
+    border-radius: 8px;
+    color: var(--background-color);
+    background-color: var(--secondary-color);
+}
+
+
+input:active {
+    outline: none;
+    border: none;
+}
+
+a {
+    text-decoration: none; 
+    color: var(--primary-color);  
+}
+
+img {
+    cursor: pointer;
+}
+
+.icon {
+    height: 24px;
+    width: auto;
+}
+
+
+}
+
+@media screen and (min-width:48rem) {
+    
+    body {
+        font-size: 1.2rem;
+    }
+    
+}

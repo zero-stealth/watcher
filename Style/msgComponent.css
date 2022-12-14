@@ -1,0 +1,145 @@
+@media screen {
+.universal-msg-comp {
+    gap: 10px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding: 20px;
+    overflow: hidden;
+    overflow-y: auto;
+    overflow-x: hidden;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: var(--primary-color);
+    /* box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px; */
+}
+
+.msg-component {
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.msg-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.msg-profile {
+ gap: 10px;   
+}
+
+.msg-img {
+    height: 60px;
+    width: 60px;
+
+}
+
+.msg-profile-info h1 {
+    font-size:1rem;
+    color: var(--secondary-color);
+}
+
+.msg-profile-info span {
+    font-size:.8rem;
+    color:  var(--text-light-color);
+}
+
+.msg-container {
+    gap: 10px;
+    height: 100%;
+    display:flex;
+    padding: 10px 0;
+    overflow: hidden;
+    overflow-y: auto;
+    flex-direction: column;
+}
+
+.current-msg {
+    padding:10px;
+    border-radius:10px 10px 0 10px;
+    background-color: var(--chat-sms-color);
+
+    
+}
+
+.current-msg p, .current-reply p {
+    color:  var(--text-light-color);
+    font-size: .8rem;
+}
+
+.current-reply {
+    background-color: var(--chat-reply-color);
+    border-radius:10px 10px 10px 0;
+    padding: 10px;
+}
+
+
+.msg-footer {
+    width: 100%;
+    display: flex;
+}
+
+.msg-field {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    justify-content: space-between;
+    background-color: var(--background-color);
+}
+
+.msg-input {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding-left: 10px;
+}
+
+.msg-reply-input::placeholder {
+    font-size: .8rem;
+}
+
+ 
+.input-controller {
+    gap: 4px;
+    display: flex;
+    align-items: center;
+    width:fit-content;
+}
+
+.input-upload-container , .input-reply-container {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: var(--secondary-color);
+}
+
+.input-upload-container {
+    padding: 5px 10px;
+}
+
+.input-reply-container button {
+    background-color: none;
+    border-radius: 5px;
+    padding: .5px 10px;
+}
+
+.icon-reply, .icon-upload {
+    height: 24px;
+    width: 24px;
+}
+
+
+
+}
+
+
+
+@media screen and (min-width:48rem) {
+    .universal-msg-comp {
+        width: 100%;
+        border-radius: 10px;
+    }
+    
+
+}

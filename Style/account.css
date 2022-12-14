@@ -1,0 +1,149 @@
+@media screen {
+    
+.account-settings {
+    height: 100%;
+    display: flex;
+    overflow: hidden;
+    overflow-y: auto;
+    overflow-x: hidden;
+    flex-direction: column;
+}
+
+/* refer to accountManagement for styling on admin */
+
+/* account setting style */
+
+.account-section {
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.c-manage {
+    padding-left: 0;
+}
+
+.c-account {
+    gap: 20px;
+    height: 100%;
+    display: flex;
+    padding: 40px 20px;
+    border-radius: 10px;
+    flex-direction: column;
+    background-color: var(--primary-color);
+}
+
+.c-container {
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.c-part {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+
+.c-part a span {
+    color: var(--text-light-color);
+}
+
+.c-field {
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.c-label {
+    font-weight: 500;
+    font-size: .8rem;
+}
+
+.c-input {
+    display:flex;
+    width: 160px;
+    padding: 4px 5px;
+    border-radius:5px;
+    align-items: center;
+    color: var(--text-light-color);
+    background-color: var(--primary-color);
+    border: 1px solid var(--text-dark-color);
+}
+
+.c-img {
+    cursor: pointer;
+}
+
+.c-input:hover {
+    border:2px solid var(--secondary-color);
+}
+
+.c-input:active {
+    border:2px solid var(--secondary-color);
+}
+
+.c-btn , .c-delete-btn {
+    border-radius: 5px;
+    padding: 4px 16px;
+    text-align: center;
+    background-color: var(--chat-sms-color);
+}
+
+.btn-manager a {
+    color: var(--background-color);
+}
+
+.c-btn a span , .c-footer a span , .c-delete-btn a span {
+    font-size: .8rem;
+}
+
+.c-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.c-footer a {
+    color: var(--secondary-color);
+}
+
+.c-delete-btn a span {
+    color: var(--tertiary-color);
+}
+
+
+    
+}
+
+
+@media screen and (min-width:48rem) {
+
+
+.c-part {
+    align-items: center;
+}
+
+.c-label {
+    font-size: 1rem;
+}
+
+.c-input {
+    display:flex;
+    width: 400px;
+    padding: 8px 5px;
+}
+
+
+
+.c-btn , .c-delete-btn {
+    padding: 5px 20px;
+}
+
+.c-btn a span , .c-footer a span , .c-delete-btn a span {
+    font-size: 1rem;
+}
+
+
+}

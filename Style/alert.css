@@ -1,0 +1,151 @@
+@media screen {
+    
+.alert-section {
+    gap: 20px;
+    height: 100%;
+    display: flex;  
+    padding: 20px;
+    overflow: hidden;
+    overflow-y: auto;
+    padding-top: 20px;
+    overflow-x: hidden;
+    flex-direction: column;
+    justify-content: center;
+       
+}
+
+.alert-title h1 , .alert-c-title h1{
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+/* alert form css */
+
+.alert-form {
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.alert-input {
+    display:flex;
+    width: 100%;
+    padding: 10px;
+    border-radius:5px;
+    align-items: center;
+    color: var(--text-light-color);
+    border: 1px solid var(--text-light-color);
+}
+
+.alert-msg {
+    height:70px;
+}
+
+.alert-input:hover {
+    border:2px solid var(--secondary-color);
+}
+
+.alert-input:active {
+    border:2px solid var(--secondary-color);
+}
+
+
+.alert-btn-c {
+    width: 100%;
+    display: flex;
+    font-size: 1rem;
+    align-content: flex-end;
+    justify-content: flex-end;
+}
+
+.alert-btn {
+    width: 100%;
+    cursor: pointer;
+}
+
+/* alert css  */
+
+.container-alert {
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.alert-management {
+    gap: 10px;
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    background-color: var(--chat-sms-color);
+}
+
+.alert-management h1 {
+    font-size: 1rem;
+    color: var(--tertiary-color);
+}
+
+
+.alert-management h2 {
+    font-size: .9rem;
+    color: var(--background-opeque);
+}
+
+.alert-management p {
+    font-size: .8rem;
+    color: var(--text-light-color);
+}
+
+.alert-delete {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.alert-delete a {
+    font-size: .9rem;
+    color: var(--secondary-color);
+}
+
+}
+
+@media screen and (min-width:48rem) {
+    
+.alert-section {
+    padding: 30px;       
+}
+
+.alert-title h1 , .alert-c-title h1{
+    font-size: 1.4rem;
+}
+
+/* alert form css */
+
+.alert-input {
+    width: 50%;
+}
+
+.alert-btn {
+    width: 20%;
+}
+
+/* alert css  */
+
+.alert-management h1 {
+    font-size: 1.2rem;
+}
+
+
+.alert-management h2 {
+    font-size: 1rem;
+}
+
+.alert-management p {
+    font-size: .9rem;
+}
+
+
+.alert-delete a {
+    font-size: 1rem;
+}
+    
+}
